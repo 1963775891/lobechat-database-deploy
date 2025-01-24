@@ -1,6 +1,6 @@
 services:
   lobechat-db:
-    image: lobehub/lobe-chat-database:v1.9.3
+    image: lobehub/lobe-chat-database:v1.47.23
     restart: always
     env_file: .env
     ports:
